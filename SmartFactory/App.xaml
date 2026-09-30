@@ -1,0 +1,18 @@
+﻿<Application x:Class="SmartFactory.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SmartFactory"
+             xmlns:converter="clr-namespace:SmartFactory.Converters">
+    <Application.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+
+        <converter:InverseBooleanToVisibilityConverter
+            x:Key="InverseBoolToVisibilityConverter"/>
+
+        <converter:PeriodButtonBrushConverter
+            x:Key="PeriodButtonBrushConverter"/>
+        
+        <converter:ModeButtonBrushConverter
+            x:Key="ModeButtonBrushConverter"/>
+    </Application.Resources>
+</Application>

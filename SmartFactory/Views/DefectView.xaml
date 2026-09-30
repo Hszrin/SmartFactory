@@ -1,0 +1,180 @@
+﻿<UserControl x:Class="SmartFactory.Views.DefectView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="#1E1E1E">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="불량 관리"
+                   FontSize="26"
+                   FontWeight="Bold"
+                   Foreground="White"
+                   Margin="0,0,0,15"/>
+
+        <Border Grid.Row="1"
+                Background="#2A2A2A"
+                CornerRadius="8"
+                Padding="15"
+                Margin="0,0,0,15">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="180"/>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition Width="220"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Column="0"
+                           Text="생산 실적"
+                           Foreground="White"
+                           Margin="0,0,10,5"/>
+
+                <TextBlock Grid.Column="1"
+                           Text="불량 유형"
+                           Foreground="White"
+                           Margin="0,0,10,5"/>
+
+                <TextBlock Grid.Column="2"
+                           Text="불량 수량"
+                           Foreground="White"
+                           Margin="0,0,10,5"/>
+
+                <TextBlock Grid.Column="3"
+                           Text="설명"
+                           Foreground="White"
+                           Margin="0,0,10,5"/>
+
+                <ComboBox Grid.Row="1"
+                          Grid.Column="0"
+                          Margin="0,0,10,0"
+                          ItemsSource="{Binding ProductionResults}"
+                          SelectedItem="{Binding SelectedResult}"
+                          DisplayMemberPath="ResultId"/>
+
+                <ComboBox Grid.Row="1"
+                          Grid.Column="1"
+                          Margin="0,0,10,0"
+                          ItemsSource="{Binding DefectTypeList}"
+                          SelectedItem="{Binding DefectType}"/>
+
+                <TextBox Grid.Row="1"
+                         Grid.Column="2"
+                         Margin="0,0,10,0"
+                         VerticalContentAlignment="Center"
+                         Text="{Binding DefectQuantity,
+                                      UpdateSourceTrigger=PropertyChanged}"/>
+
+                <TextBox Grid.Row="1"
+                         Grid.Column="3"
+                         Grid.ColumnSpan="2"
+                         VerticalContentAlignment="Center"
+                         Text="{Binding Description,
+                                      UpdateSourceTrigger=PropertyChanged}"/>
+
+                <StackPanel Grid.Row="2"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="5"
+                            Orientation="Horizontal"
+                            Margin="0,15,0,0">
+
+                    <Button Content="등록"
+                            Width="90"
+                            Height="34"
+                            Margin="0,0,8,0"
+                            Command="{Binding AddDefectCommand}"
+                            Background="#388E3C"
+                            Foreground="White"/>
+
+                    <Button Content="수정"
+                            Width="90"
+                            Height="34"
+                            Margin="0,0,8,0"
+                            Command="{Binding UpdateDefectCommand}"
+                            Background="#1976D2"
+                            Foreground="White"/>
+
+                    <Button Content="삭제"
+                            Width="90"
+                            Height="34"
+                            Margin="0,0,8,0"
+                            Command="{Binding DeleteCommand}"
+                            Background="#D32F2F"
+                            Foreground="White"/>
+
+                    <Button Content="새로고침"
+                            Width="90"
+                            Height="34"
+                            Command="{Binding RefreshCommand}"
+                            Background="#555555"
+                            Foreground="White"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <DataGrid Grid.Row="2"
+                  ItemsSource="{Binding Defects}"
+                  SelectedItem="{Binding SelectedDefect}"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  CanUserAddRows="False"
+                  SelectionMode="Single"
+                  HeadersVisibility="Column"
+                  Background="#252525"
+                  Foreground="White"
+                  RowBackground="#2A2A2A"
+                  AlternatingRowBackground="#303030"
+                  GridLinesVisibility="Horizontal"
+                  BorderThickness="0">
+
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Foreground" Value="Black"/>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID"
+                        Binding="{Binding DefectId}"
+                        Width="60"/>
+
+                <DataGridTextColumn Header="실적 ID"
+                        Binding="{Binding ResultId}"
+                        Width="80"/>
+
+                <DataGridTextColumn Header="제품"
+                        Binding="{Binding Result.WorkOrder.Product.ProductName}"
+                        Width="140"/>
+
+                <DataGridTextColumn Header="불량 유형"
+                        Binding="{Binding DefectType}"
+                        Width="130"/>
+
+                <DataGridTextColumn Header="불량 수량"
+                        Binding="{Binding DefectQuantity}"
+                        Width="100"/>
+
+                <DataGridTextColumn Header="설명"
+                        Binding="{Binding Description}"
+                        Width="*"/>
+
+                <DataGridTextColumn Header="등록일"
+                        Binding="{Binding CreatedAt,
+                                  StringFormat=yyyy-MM-dd HH:mm}"
+                        Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>
