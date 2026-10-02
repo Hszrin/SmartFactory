@@ -3,7 +3,6 @@ using CommunityToolkit.Mvvm.Input;
 using SmartFactory.Models;
 using SmartFactory.Repositories.Interface;
 using System.Collections.ObjectModel;
-using System.Windows;
 
 namespace SmartFactory.ViewModels
 {
@@ -57,9 +56,6 @@ namespace SmartFactory.ViewModels
             _productRepository = productRepository;
             _lineRepository = lineRepository;
         }
-        // =========================
-        // Base 연결
-        // =========================
         protected override ObservableCollection<ProductionPlan> Items
             => Plans;
         protected override ProductionPlan? SelectedItem
@@ -76,27 +72,19 @@ namespace SmartFactory.ViewModels
         {
             return _planRepository.GetAllAsync(token);
         }
-        // =========================
-        // 초기 로딩
-        // =========================
 
         public override async Task InitializeAsync(CancellationToken token)
         {
-            // 먼저 선택용 데이터
             await LoadCollectionAsync(
-                ()=>_productRepository.GetAllAsync(token),
+                () => _productRepository.GetAllAsync(token),
                 Products);
 
             await LoadCollectionAsync(
-                ()=>_lineRepository.GetAllAsync(token),
+                () => _lineRepository.GetAllAsync(token),
                 Lines);
 
-            // 마지막에 메인 데이터
             await RefreshItemsAsync(token);
         }
-        // =========================
-        // Add
-        // =========================
 
         [RelayCommand]
         private async Task AddPlan()
@@ -111,7 +99,8 @@ namespace SmartFactory.ViewModels
                 TargetQuantity = TargetQuantity,
                 StartDate = StartDate,
                 EndDate = EndDate,
-                Status = "PLANNED"
+                Status = "PLANNED",
+                CreatedAt = DateTime.Now
             };
 
             await _commonRepository.AddAsync(plan);
@@ -120,9 +109,6 @@ namespace SmartFactory.ViewModels
 
             ClearInput();
         }
-        // =========================
-        // Update
-        // =========================
         [RelayCommand]
         private async Task UpdatePlan()
         {
@@ -157,9 +143,6 @@ namespace SmartFactory.ViewModels
 
             ClearInput();
         }
-        // =========================
-        // Selected
-        // =========================
         partial void OnSelectedPlanChanged(
             ProductionPlan? value)
         {
@@ -186,9 +169,6 @@ namespace SmartFactory.ViewModels
             Status =
                 value.Status;
         }
-        // =========================
-        // Validation
-        // =========================
         private bool ValidateInput()
         {
             if (SelectedProduct == null ||
@@ -218,9 +198,6 @@ namespace SmartFactory.ViewModels
 
             return true;
         }
-        // =========================
-        // Clear
-        // =========================
 
         protected override void ClearInput()
         {

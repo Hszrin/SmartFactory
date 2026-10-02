@@ -4832,11 +4832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\SmartFactory.csproj",
+      "projectUniqueName": "C:\\SmartFactory\\SmartFactory\\SmartFactory.csproj",
       "projectName": "SmartFactory",
-      "projectPath": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\SmartFactory.csproj",
+      "projectPath": "C:\\SmartFactory\\SmartFactory\\SmartFactory.csproj",
       "packagesPath": "C:\\Users\\swjwp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\obj\\",
+      "outputPath": "C:\\SmartFactory\\SmartFactory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

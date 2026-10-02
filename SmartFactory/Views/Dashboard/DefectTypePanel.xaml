@@ -99,7 +99,7 @@
                FontSize="15"
                HorizontalAlignment="Center"
                VerticalAlignment="Center"
-               Visibility="{Binding HasMachineData,
+               Visibility="{Binding HasDefectData,
                    Converter={StaticResource InverseBoolToVisibilityConverter}}"/>
                 </Grid>
             </Grid>

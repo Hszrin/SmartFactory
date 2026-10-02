@@ -68,11 +68,15 @@
                              Height="20"
                              VerticalAlignment="Center"/>
 
-                                    <TextBlock Text="{Binding ProgressRate, StringFormat={}{0:F1}%}"
-           Foreground="White"
-           HorizontalAlignment="Center"
-           VerticalAlignment="Center"
-           FontWeight="Bold"/>
+                                    <Border Background="#66000000"
+                                            CornerRadius="3"
+                                            Padding="4,1"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center">
+                                        <TextBlock Text="{Binding ProgressRate, StringFormat={}{0:F1}%}"
+                                                   Foreground="White"
+                                                   FontWeight="Bold"/>
+                                    </Border>
                                 </Grid>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>

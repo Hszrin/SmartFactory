@@ -1,48 +1,38 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SmartFactory.Data;
 using SmartFactory.Dtos;
-using SmartFactory.Repositories.Interface;
 using SmartFactory.Services.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SmartFactory.Services
 {
     public class DashboardService : IDashboardService
     {
         private readonly SmartFactoryDbContext _context;
-        public DashboardService(
-            SmartFactoryDbContext context)
+
+        public DashboardService(SmartFactoryDbContext context)
         {
             _context = context;
         }
-        public async Task<DashboardSummaryDto> GetSummaryAsync(DateTime start, DateTime end, CancellationToken token)
+
+        public async Task<DashboardSummaryDto> GetSummaryAsync(
+            DateTime start,
+            DateTime end,
+            CancellationToken token)
         {
-            var dto = new DashboardSummaryDto();
+            var periodResults = _context.ProductionResults
+                .Where(x => x.ProductionTime >= start && x.ProductionTime < end);
 
-            var todayResults = _context.ProductionResults
-                .Where(x =>
-                    x.ProductionTime >= start &&
-                    x.ProductionTime < end);
-
-            var totalProduction = await todayResults
-                .SumAsync(x => x.ProductionQuantity);
-
-            var goodQuantity = await todayResults
-                .SumAsync(x => x.GoodQuantity);
-
-            var defectQuantity = await todayResults
-                .SumAsync(x => x.DefectQuantity);
+            var totalProduction = await periodResults
+                .SumAsync(x => x.ProductionQuantity, token);
+            var goodQuantity = await periodResults
+                .SumAsync(x => x.GoodQuantity, token);
+            var defectQuantity = await periodResults
+                .SumAsync(x => x.DefectQuantity, token);
 
             var runningWorkOrderCount = await _context.WorkOrders
-                .CountAsync(x => x.Status == "RUNNING");
-
+                .CountAsync(x => x.Status == "RUNNING", token);
             var completedWorkOrderCount = await _context.WorkOrders
-                .CountAsync(x => x.Status == "COMPLETED");
-
+                .CountAsync(x => x.Status == "COMPLETED", token);
 
             return new DashboardSummaryDto
             {
@@ -51,16 +41,19 @@ namespace SmartFactory.Services
                 DefectQuantity = defectQuantity,
                 DefectRate = totalProduction == 0
                     ? 0
-                    : (float)defectQuantity / totalProduction * 100,
+                    : (double)defectQuantity / totalProduction * 100,
                 RunningWorkOrderCount = runningWorkOrderCount,
                 CompletedWorkOrderCount = completedWorkOrderCount
             };
         }
-        public async Task<List<MachineProductionDto>> GetMachineProductionAsync(DateTime start, DateTime end, CancellationToken token)
+
+        public async Task<List<MachineProductionDto>> GetMachineProductionAsync(
+            DateTime start,
+            DateTime end,
+            CancellationToken token)
         {
             return await _context.ProductionResults
-                .Where(x => x.ProductionTime >= start &&
-                            x.ProductionTime < end)
+                .Where(x => x.ProductionTime >= start && x.ProductionTime < end)
                 .GroupBy(x => new
                 {
                     x.MachineId,
@@ -73,11 +66,14 @@ namespace SmartFactory.Services
                 })
                 .ToListAsync(token);
         }
-        public async Task<List<ProductProductionDto>> GetProductProductionAsync(DateTime start, DateTime end, CancellationToken token)
+
+        public async Task<List<ProductProductionDto>> GetProductProductionAsync(
+            DateTime start,
+            DateTime end,
+            CancellationToken token)
         {
             return await _context.ProductionResults
-                .Where(x => x.ProductionTime >= start &&
-                            x.ProductionTime < end)
+                .Where(x => x.ProductionTime >= start && x.ProductionTime < end)
                 .GroupBy(x => new
                 {
                     x.WorkOrder!.ProductId,
@@ -90,11 +86,16 @@ namespace SmartFactory.Services
                 })
                 .ToListAsync(token);
         }
-        public async Task<List<DefectTypeDto>> GetDefectProductionAsync(DateTime start, DateTime end, CancellationToken token)
+
+        public async Task<List<DefectTypeDto>> GetDefectProductionAsync(
+            DateTime start,
+            DateTime end,
+            CancellationToken token)
         {
             return await _context.Defects
-                .Where(x => x.Result!.ProductionTime >= start &&
-                            x.Result!.ProductionTime < end)
+                .Where(x =>
+                    x.Result!.ProductionTime >= start &&
+                    x.Result.ProductionTime < end)
                 .GroupBy(x => x.DefectType)
                 .Select(g => new DefectTypeDto
                 {
@@ -103,31 +104,51 @@ namespace SmartFactory.Services
                 })
                 .ToListAsync(token);
         }
-        public async Task<List<WorkOrderProgressDto>> GetWorkOrderProgressAsync(CancellationToken t)
+
+        public async Task<List<WorkOrderProgressDto>> GetWorkOrderProgressAsync(
+            CancellationToken token)
         {
-            return await _context.WorkOrders
-                .Select(w => new WorkOrderProgressDto
+            var productionTotals = await _context.ProductionResults
+                .GroupBy(x => x.WorkOrderId)
+                .Select(g => new
                 {
-                    WorkOrderId = w.WorkOrderId,
-                    ProductName = w.Product!.ProductName,
-                    TargetQuantity = w.TargetQuantity,
-                    Status = w.Status,
-
-                    CurrentQuantity = _context.ProductionResults
-                        .Where(r => r.WorkOrderId == w.WorkOrderId)
-                        .Sum(r => (int?)r.ProductionQuantity) ?? 0,
-
-                    ProgressRate =
-                        w.TargetQuantity == 0
-                            ? 0
-                            : (double)(
-                                _context.ProductionResults
-                                    .Where(r => r.WorkOrderId == w.WorkOrderId)
-                                    .Sum(r => (int?)r.ProductionQuantity) ?? 0
-                            )
-                            / w.TargetQuantity * 100
+                    WorkOrderId = g.Key,
+                    CurrentQuantity = g.Sum(x => x.ProductionQuantity)
                 })
-                .ToListAsync(t);
+                .ToDictionaryAsync(
+                    x => x.WorkOrderId,
+                    x => x.CurrentQuantity,
+                    token);
+
+            var workOrders = await _context.WorkOrders
+                .Select(w => new
+                {
+                    w.WorkOrderId,
+                    ProductName = w.Product!.ProductName,
+                    w.TargetQuantity,
+                    w.Status
+                })
+                .OrderBy(x => x.WorkOrderId)
+                .ToListAsync(token);
+
+            return workOrders
+                .Select(w =>
+                {
+                    var currentQuantity = productionTotals.GetValueOrDefault(w.WorkOrderId, 0);
+
+                    return new WorkOrderProgressDto
+                    {
+                        WorkOrderId = w.WorkOrderId,
+                        ProductName = w.ProductName,
+                        TargetQuantity = w.TargetQuantity,
+                        CurrentQuantity = currentQuantity,
+                        Status = w.Status,
+                        ProgressRate = w.TargetQuantity == 0
+                            ? 0
+                            : (double)currentQuantity / w.TargetQuantity * 100
+                    };
+                })
+                .ToList();
         }
     }
 }

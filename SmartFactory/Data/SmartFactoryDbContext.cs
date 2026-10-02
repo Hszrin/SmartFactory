@@ -1,28 +1,25 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations.Schema;
 using SmartFactory.Models;
 
 namespace SmartFactory.Data
 {
     public class SmartFactoryDbContext : DbContext
     {
-        public DbSet<Product> Products { get; set; }
-        public DbSet<ProductionPlan> ProductionPlans { get; set; }
-        public DbSet<ProductionLine> ProductionLines { get; set; }
-        public DbSet<WorkOrder> WorkOrders { get; set; }
-        public DbSet<ProductionResult> ProductionResults { get; set; }
-        public DbSet<Machine> Machines { get; set; }
-        public DbSet<Defect> Defects { get; set; }
+        public DbSet<Product> Products => Set<Product>();
+        public DbSet<ProductionPlan> ProductionPlans => Set<ProductionPlan>();
+        public DbSet<ProductionLine> ProductionLines => Set<ProductionLine>();
+        public DbSet<WorkOrder> WorkOrders => Set<WorkOrder>();
+        public DbSet<ProductionResult> ProductionResults => Set<ProductionResult>();
+        public DbSet<Machine> Machines => Set<Machine>();
+        public DbSet<Defect> Defects => Set<Defect>();
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            if (optionsBuilder.IsConfigured)
+                return;
+
             optionsBuilder.UseSqlServer(
-                @"Server=DESKTOP-D2NJDUA\SQLEXPRESS;" +
-                "Database=SmartFactoryDB;" +
-                "Trusted_Connection=True;" +
-                "TrustServerCertificate=True;" +
-                "Connect Timeout=5;");
+                @"Server=.\SQLEXPRESS;Database=SmartFactoryDB;Trusted_Connection=True;TrustServerCertificate=True;Connect Timeout=5;");
         }
     }
-
 }

@@ -8,15 +8,12 @@ namespace SmartFactory.Repositories
     public class ProductionResultRepository : IProductionResultRepository
     {
         private readonly SmartFactoryDbContext _context;
-        public ProductionResultRepository(
-            SmartFactoryDbContext context)
+
+        public ProductionResultRepository(SmartFactoryDbContext context)
         {
             _context = context;
         }
-        /// <summary>
-        /// 전체 생산 실적을 조회합니다.
-        /// 작업지시와 설비 정보도 함께 불러옵니다.
-        /// </summary>
+
         public async Task<List<ProductionResult>> GetAllAsync(CancellationToken token)
         {
             return await _context.ProductionResults
@@ -26,9 +23,6 @@ namespace SmartFactory.Repositories
                 .ToListAsync(token);
         }
 
-        /// <summary>
-        /// 기존 생산 실적을 수정합니다.
-        /// </summary>
         public async Task UpdateAsync(ProductionResult result)
         {
             var target = await _context.ProductionResults

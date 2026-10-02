@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SmartFactory.Models
 {
@@ -20,7 +15,6 @@ namespace SmartFactory.Models
         public DateTime EndDate { get; set; }
         public string Status { get; set; } = string.Empty;
         public DateTime CreatedAt { get; set; }
-
         public Product? Product { get; set; }
         public ProductionLine? Line { get; set; }
     }

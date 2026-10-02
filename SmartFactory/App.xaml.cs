@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using SmartFactory.Data;
-using SmartFactory.Models;
 using SmartFactory.Repositories;
 using SmartFactory.Repositories.Interface;
 using SmartFactory.Services;
@@ -18,28 +17,23 @@ namespace SmartFactory
         protected override void OnStartup(StartupEventArgs e)
         {
             var services = new ServiceCollection();
-
             ConfigureServices(services);
 
             Services = services.BuildServiceProvider();
-
-            var mainWindow =
-                Services.GetRequiredService<MainWindow>();
-
-            mainWindow.Show();
+            Services.GetRequiredService<MainWindow>().Show();
 
             base.OnStartup(e);
         }
 
-        private static void ConfigureServices(
-            IServiceCollection services)
+        protected override void OnExit(ExitEventArgs e)
         {
-            // DbContext
-            services.AddScoped<SmartFactoryDbContext>();
+            Services.Dispose();
+            base.OnExit(e);
+        }
 
-            // =========================
-            // Repository
-            // =========================
+        private static void ConfigureServices(IServiceCollection services)
+        {
+            services.AddScoped<SmartFactoryDbContext>();
 
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IProductionPlanRepository, ProductionPlanRepository>();
@@ -47,20 +41,12 @@ namespace SmartFactory
             services.AddScoped<IProductionResultRepository, ProductionResultRepository>();
             services.AddScoped<IMachineRepository, MachineRepository>();
             services.AddScoped<ILineRepository, LineRepository>();
-            services.AddScoped<IDefectRepository, DefectRepository>(); 
-            services.AddScoped<IMachineRepository, MachineRepository>();
-            // Generic Repository
-            services.AddScoped(
-                typeof(ICommonRepository<,>),
-                typeof(CommonRepository<,>));
+            services.AddScoped<IDefectRepository, DefectRepository>();
+            services.AddScoped(typeof(ICommonRepository<,>), typeof(CommonRepository<,>));
 
             services.AddScoped<IProductionService, ProductionService>();
             services.AddScoped<IDefectService, DefectService>();
             services.AddScoped<IDashboardService, DashboardService>();
-
-            // =========================
-            // ViewModel
-            // =========================
 
             services.AddScoped<ProductViewModel>();
             services.AddScoped<ProductionPlanViewModel>();
@@ -70,10 +56,6 @@ namespace SmartFactory
             services.AddScoped<MachineViewModel>();
             services.AddScoped<LineViewModel>();
             services.AddScoped<DashboardViewModel>();
-
-            // =========================
-            // View
-            // =========================
 
             services.AddScoped<ProductView>();
             services.AddScoped<ProductionPlanView>();

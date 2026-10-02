@@ -4,7 +4,6 @@ using SmartFactory.Models;
 using SmartFactory.Repositories.Interface;
 using SmartFactory.Services.Interface;
 using System.Collections.ObjectModel;
-using System.Windows;
 
 namespace SmartFactory.ViewModels
 {
@@ -52,9 +51,6 @@ namespace SmartFactory.ViewModels
             _machineRepository = machineRepository;
             _productionService = productionService;
         }
-        // =========================
-        // Base 연결
-        // =========================
         protected override ObservableCollection<ProductionResult> Items
             => Results;
 
@@ -72,27 +68,19 @@ namespace SmartFactory.ViewModels
         {
             return _resultRepository.GetAllAsync(token);
         }
-        // =========================
-        // 초기 로딩
-        // =========================
 
         public override async Task InitializeAsync(CancellationToken token)
         {
-            // 선택용 데이터부터 로드
             await LoadCollectionAsync(
-                ()=>_workOrderRepository.GetAllAsync(token),
+                () => _workOrderRepository.GetAllAsync(token),
                 WorkOrders);
 
             await LoadCollectionAsync(
                 () => _machineRepository.GetAllAsync(token),
                 Machines);
 
-            // 메인 실적 데이터
             await RefreshItemsAsync(token);
         }
-        // =========================
-        // Add
-        // =========================
 
         [RelayCommand]
         private async Task AddResult()
@@ -126,8 +114,7 @@ namespace SmartFactory.ViewModels
                 await _productionService
                     .RegisterResultAsync(result);
 
-                // WorkOrder 상태가 COMPLETED로
-                // 변경됐을 수도 있으므로 같이 새로고침
+                // 생산실적 등록으로 작업지시가 완료될 수 있으므로 선택 목록도 갱신한다.
                 await LoadCollectionAsync(
                     () => _workOrderRepository
                 .GetAllAsync(CancellationToken.None),
@@ -139,12 +126,9 @@ namespace SmartFactory.ViewModels
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                ShowError(ex.Message);
             }
         }
-        // =========================
-        // Update
-        // =========================
 
         [RelayCommand]
         private async Task UpdateResult()
@@ -180,10 +164,6 @@ namespace SmartFactory.ViewModels
 
             ClearInput();
         }
-
-        // =========================
-        // Selected
-        // =========================
         partial void OnSelectedResultChanged(
             ProductionResult? value)
         {
@@ -212,9 +192,6 @@ namespace SmartFactory.ViewModels
             ProductionTime =
                 value.ProductionTime;
         }
-        // =========================
-        // Validation
-        // =========================
 
         private bool ValidateInput()
         {
@@ -252,9 +229,6 @@ namespace SmartFactory.ViewModels
 
             return true;
         }
-        // =========================
-        // Clear
-        // =========================
         protected override void ClearInput()
         {
             SelectedResult = null;

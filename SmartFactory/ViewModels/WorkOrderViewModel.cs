@@ -3,14 +3,12 @@ using CommunityToolkit.Mvvm.Input;
 using SmartFactory.Models;
 using SmartFactory.Repositories.Interface;
 using System.Collections.ObjectModel;
-using System.Windows;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SmartFactory.ViewModels
 {
     public partial class WorkOrderViewModel : BaseCrudViewModel<WorkOrder, int>
     {
-        private readonly IWorkOrderRepository _repository;
+        private readonly IWorkOrderRepository _workOrderRepository;
         private readonly IProductionPlanRepository _planRepository;
 
         public ObservableCollection<WorkOrder> WorkOrders { get; } = new();
@@ -37,7 +35,7 @@ namespace SmartFactory.ViewModels
             IProductionPlanRepository planRepository)
             : base(commonRepository)
         {
-            _repository = repository;
+            _workOrderRepository = repository;
             _planRepository = planRepository;
         }
 
@@ -56,13 +54,13 @@ namespace SmartFactory.ViewModels
 
         protected override Task<List<WorkOrder>> GetAllAsync(CancellationToken token)
         {
-            return _repository.GetAllAsync(token);
+            return _workOrderRepository.GetAllAsync(token);
         }
 
         public override async Task InitializeAsync(CancellationToken token)
         {
             await LoadCollectionAsync(
-                ()=>_planRepository.GetAllAsync(token),
+                () => _planRepository.GetAllAsync(token),
                 Plans);
 
             await RefreshItemsAsync(token);
@@ -77,6 +75,12 @@ namespace SmartFactory.ViewModels
                 return;
             }
 
+            if (TargetQuantity <= 0)
+            {
+                ShowError("목표 생산량은 1 이상이어야 합니다.");
+                return;
+            }
+
             var order = new WorkOrder
             {
                 PlanId = SelectedPlan.PlanId,
@@ -85,7 +89,8 @@ namespace SmartFactory.ViewModels
                 TargetQuantity = TargetQuantity,
                 Status = "WAITING",
                 StartTime = null,
-                EndTime = null
+                EndTime = null,
+                CreatedAt = DateTime.Now
             };
 
             await _commonRepository.AddAsync(order);
@@ -121,7 +126,7 @@ namespace SmartFactory.ViewModels
 
             SelectedOrder.Status = Status;
 
-            await _repository.UpdateAsync(SelectedOrder);
+            await _workOrderRepository.UpdateAsync(SelectedOrder);
             await RefreshItemsAsync(CancellationToken.None);
             ClearInput();
         }

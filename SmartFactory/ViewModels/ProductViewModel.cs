@@ -3,7 +3,6 @@ using CommunityToolkit.Mvvm.Input;
 using SmartFactory.Models;
 using SmartFactory.Repositories.Interface;
 using System.Collections.ObjectModel;
-using System.Windows;
 
 namespace SmartFactory.ViewModels
 {
@@ -33,17 +32,17 @@ namespace SmartFactory.ViewModels
             get => SelectedProduct;
             set => SelectedProduct = value;
         }
-        protected override int GetKey(Product item)
-        {
-            return item.ProductId;
-        }
+
+        protected override int GetKey(Product item) => item.ProductId;
+
         protected override Task<List<Product>> GetAllAsync(CancellationToken token)
         {
             return _productRepository.GetAllAsync(token);
         }
-        public override async Task InitializeAsync(CancellationToken token)
+
+        public override Task InitializeAsync(CancellationToken token)
         {
-            await RefreshItemsAsync(token);
+            return RefreshItemsAsync(token);
         }
 
         [RelayCommand]
@@ -60,7 +59,8 @@ namespace SmartFactory.ViewModels
             {
                 ProductCode = ProductCode,
                 ProductName = ProductName,
-                Unit = string.IsNullOrWhiteSpace(Unit) ? "EA" : Unit
+                Unit = string.IsNullOrWhiteSpace(Unit) ? "EA" : Unit,
+                CreatedAt = DateTime.Now
             };
 
             await _commonRepository.AddAsync(product);

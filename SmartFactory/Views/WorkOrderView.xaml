@@ -88,7 +88,7 @@
                             Foreground="White"/>
 
                     <Button Content="삭제"
-                            Command="{Binding DeleteWorkOrderCommand}"
+                            Command="{Binding DeleteCommand}"
                             Width="80"
                             Height="32"
                             Margin="5,0"
@@ -96,7 +96,7 @@
                             Foreground="White"/>
 
                     <Button Content="새로고침"
-                            Command="{Binding RefreshWorkOrdersCommand}"
+                            Command="{Binding RefreshCommand}"
                             Width="90"
                             Height="32"
                             Margin="5,0"

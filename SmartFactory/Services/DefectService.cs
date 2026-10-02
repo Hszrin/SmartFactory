@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SmartFactory.Data;
 using SmartFactory.Models;
-using SmartFactory.Repositories;
 using SmartFactory.Repositories.Interface;
 using SmartFactory.Services.Interface;
 
@@ -11,6 +10,7 @@ namespace SmartFactory.Services
     {
         private readonly IDefectRepository _defectRepository;
         private readonly SmartFactoryDbContext _context;
+
         public DefectService(
             IDefectRepository defectRepository,
             SmartFactoryDbContext context)
@@ -18,6 +18,7 @@ namespace SmartFactory.Services
             _defectRepository = defectRepository;
             _context = context;
         }
+
         public async Task AddDefect(Defect defect)
         {
             var result = await _context.ProductionResults

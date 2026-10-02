@@ -334,8 +334,7 @@
               "RelativeToolTip": "SmartFactory\\Views\\WorkOrderView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T07:32:01.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T07:32:01.187Z"
             },
             {
               "$type": "Document",
@@ -347,8 +346,7 @@
               "RelativeToolTip": "SmartFactory\\Views\\MachineView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T11:45:00.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T11:45:00.242Z"
             },
             {
               "$type": "Document",
@@ -360,8 +358,7 @@
               "RelativeToolTip": "SmartFactory\\Views\\LineView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T12:01:46.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T12:01:46.627Z"
             },
             {
               "$type": "Document",
@@ -373,8 +370,7 @@
               "RelativeToolTip": "SmartFactory\\Views\\DefectView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T08:00:35.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T08:00:35.844Z"
             },
             {
               "$type": "Document",
@@ -386,8 +382,7 @@
               "RelativeToolTip": "SmartFactory\\Views\\DashboardView.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T14:40:19.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-21T14:40:19.239Z"
             },
             {
               "$type": "Document",
@@ -411,8 +406,7 @@
               "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\WorkOrderView.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\WorkOrderView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-20T08:28:37.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T08:28:37.889Z"
             },
             {
               "$type": "Document",
@@ -424,8 +418,7 @@
               "RelativeToolTip": "SmartFactory\\App.xaml.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAwDoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T07:03:56.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T07:03:56.884Z"
             },
             {
               "$type": "Document",
@@ -436,8 +429,7 @@
               "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\MainWindow.xaml",
               "RelativeToolTip": "SmartFactory\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-20T11:45:24.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T11:45:24.943Z"
             },
             {
               "$type": "Document",
@@ -449,8 +441,7 @@
               "RelativeToolTip": "SmartFactory\\Views\\ProductionPlanView.xaml.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAmwBAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T14:22:47.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T14:22:47.271Z"
             },
             {
               "$type": "Document",
@@ -462,8 +453,7 @@
               "RelativeToolTip": "SmartFactory\\Views\\ProductionResultView.xaml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvw8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T08:26:24.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T08:26:24.915Z"
             },
             {
               "$type": "Document",
@@ -475,8 +465,7 @@
               "RelativeToolTip": "SmartFactory\\Views\\ProductView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T08:27:03.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T08:27:03.306Z"
             },
             {
               "$type": "Document",
@@ -488,8 +477,7 @@
               "RelativeToolTip": "SmartFactory\\ViewModels\\BaseCrudViewModel.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAmwD0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T14:33:00.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-21T14:33:00.582Z"
             },
             {
               "$type": "Document",
@@ -500,8 +488,7 @@
               "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\DashboardView.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\DashboardView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-21T14:39:02.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-21T14:39:02.732Z"
             },
             {
               "$type": "Document",
@@ -513,8 +500,7 @@
               "RelativeToolTip": "SmartFactory\\ViewModels\\DefectViewModel.cs",
               "ViewState": "AgIAAK4AAAAAAAAAAADwv4MAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T08:31:04.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T08:31:04.459Z"
             },
             {
               "$type": "Document",
@@ -526,8 +512,7 @@
               "RelativeToolTip": "SmartFactory\\ViewModels\\LineViewModel.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAiwDgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T12:00:55.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T12:00:55.733Z"
             },
             {
               "$type": "Document",
@@ -539,8 +524,7 @@
               "RelativeToolTip": "SmartFactory\\ViewModels\\ProductionPlanViewModel.cs",
               "ViewState": "AgIAAMAAAAAAAAAAAAAuwNMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T08:26:13.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T08:26:13.805Z"
             },
             {
               "$type": "Document",
@@ -552,8 +536,7 @@
               "RelativeToolTip": "SmartFactory\\ViewModels\\MachineViewModel.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAzwDgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T11:44:22.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T11:44:22.148Z"
             },
             {
               "$type": "Document",
@@ -565,8 +548,7 @@
               "RelativeToolTip": "SmartFactory\\ViewModels\\WorkOrderViewModel.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAYwEQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T14:33:06.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-21T14:33:06.619Z"
             },
             {
               "$type": "Document",
@@ -578,8 +560,7 @@
               "RelativeToolTip": "SmartFactory\\ViewModels\\ProductViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T11:46:03.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T11:46:03.29Z"
             },
             {
               "$type": "Document",
@@ -591,8 +572,7 @@
               "RelativeToolTip": "SmartFactory\\ViewModels\\ProductionResultViewModel.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAQwIQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T07:15:35.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T07:15:35.831Z"
             },
             {
               "$type": "Document",
@@ -603,8 +583,7 @@
               "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\App.xaml",
               "RelativeToolTip": "SmartFactory\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-22T07:13:57.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T07:13:57.402Z"
             },
             {
               "$type": "Document",
@@ -616,8 +595,7 @@
               "RelativeToolTip": "SmartFactory\\Repositories\\Interface\\IWorkOrderRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T15:42:20.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T15:42:20.662Z"
             },
             {
               "$type": "Document",
@@ -629,8 +607,7 @@
               "RelativeToolTip": "SmartFactory\\Repositories\\Interface\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T15:42:06.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T15:42:06.433Z"
             },
             {
               "$type": "Document",
@@ -642,8 +619,7 @@
               "RelativeToolTip": "SmartFactory\\Repositories\\Interface\\IProductionResultRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T15:40:15.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T15:40:15.566Z"
             },
             {
               "$type": "Document",
@@ -655,8 +631,7 @@
               "RelativeToolTip": "SmartFactory\\Repositories\\ProductionResultRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T08:24:08.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T08:24:08.133Z"
             },
             {
               "$type": "Document",
@@ -668,8 +643,7 @@
               "RelativeToolTip": "SmartFactory\\Repositories\\Interface\\IProductionPlanRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T15:41:44.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T15:41:44.57Z"
             },
             {
               "$type": "Document",
@@ -681,8 +655,7 @@
               "RelativeToolTip": "SmartFactory\\Repositories\\Interface\\IMachineRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T11:46:18.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T11:46:18.192Z"
             },
             {
               "$type": "Document",
@@ -694,8 +667,7 @@
               "RelativeToolTip": "SmartFactory\\Repositories\\MachineRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T11:46:13.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T11:46:13.941Z"
             },
             {
               "$type": "Document",
@@ -707,8 +679,7 @@
               "RelativeToolTip": "SmartFactory\\Repositories\\Interface\\ILineRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T12:00:28.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T12:00:28.533Z"
             },
             {
               "$type": "Document",
@@ -720,8 +691,7 @@
               "RelativeToolTip": "SmartFactory\\Repositories\\WorkOrderRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T07:07:37.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T07:07:37.315Z"
             },
             {
               "$type": "Document",
@@ -733,8 +703,7 @@
               "RelativeToolTip": "SmartFactory\\Repositories\\LineRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T06:58:42.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T06:58:42.937Z"
             },
             {
               "$type": "Document",
@@ -746,8 +715,7 @@
               "RelativeToolTip": "SmartFactory\\Repositories\\Interface\\IDefectRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T12:44:17.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-21T12:44:17.851Z"
             },
             {
               "$type": "Document",
@@ -759,8 +727,7 @@
               "RelativeToolTip": "SmartFactory\\Repositories\\ProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T08:22:56.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T08:22:56.355Z"
             },
             {
               "$type": "Document",
@@ -772,8 +739,7 @@
               "RelativeToolTip": "SmartFactory\\Repositories\\DefectRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T08:30:57.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T08:30:57.631Z"
             },
             {
               "$type": "Document",
@@ -785,8 +751,7 @@
               "RelativeToolTip": "SmartFactory\\Repositories\\ProductionPlanRepository.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T08:22:50.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T08:22:50.067Z"
             },
             {
               "$type": "Document",
@@ -798,8 +763,7 @@
               "RelativeToolTip": "SmartFactory\\ViewModels\\BaseViewModel.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwA0AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T13:18:33.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T13:18:33.124Z"
             },
             {
               "$type": "Document",
@@ -811,8 +775,7 @@
               "RelativeToolTip": "SmartFactory\\Services\\DashboardService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T06:29:19.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-21T06:29:19.995Z"
             },
             {
               "$type": "Document",
@@ -824,8 +787,7 @@
               "RelativeToolTip": "SmartFactory\\Services\\Interface\\IDashboardService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T06:29:21.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-21T06:29:21.96Z"
             },
             {
               "$type": "Document",
@@ -837,8 +799,7 @@
               "RelativeToolTip": "SmartFactory\\Services\\ProductionService.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAIwAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T08:31:19.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T08:31:19.516Z"
             },
             {
               "$type": "Document",
@@ -850,8 +811,7 @@
               "RelativeToolTip": "SmartFactory\\ViewModels\\DashboardViewModel.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAAYwK8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T14:32:05.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-21T14:32:05.086Z"
             },
             {
               "$type": "Document",
@@ -863,8 +823,7 @@
               "RelativeToolTip": "SmartFactory\\Services\\DefectService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAIwD4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T08:29:34.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T08:29:34.717Z"
             },
             {
               "$type": "Document",
@@ -876,8 +835,7 @@
               "RelativeToolTip": "SmartFactory\\ViewModels\\IAsyncInitializable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T15:21:46.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T15:21:46.682Z"
             },
             {
               "$type": "Document",
@@ -888,8 +846,7 @@
               "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\WorkOrderProgressPanel.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\Dashboard\\WorkOrderProgressPanel.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-22T07:04:22.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T07:04:22.741Z"
             },
             {
               "$type": "Document",
@@ -901,8 +858,7 @@
               "RelativeToolTip": "SmartFactory\\Dtos\\WorkOrderProgressDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T07:27:05.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T07:27:05.996Z"
             },
             {
               "$type": "Document",
@@ -913,8 +869,7 @@
               "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\DefectTypePanel.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\Dashboard\\DefectTypePanel.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-22T07:04:09.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T07:04:09.772Z"
             },
             {
               "$type": "Document",
@@ -925,8 +880,7 @@
               "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\ProductProductionPanel.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\Dashboard\\ProductProductionPanel.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-22T07:04:02.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T07:04:02.742Z"
             },
             {
               "$type": "Document",
@@ -937,8 +891,7 @@
               "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\MachineProductionPanel.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\Dashboard\\MachineProductionPanel.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-22T07:03:45.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T07:03:45.29Z"
             },
             {
               "$type": "Document",
@@ -950,8 +903,7 @@
               "RelativeToolTip": "SmartFactory\\Converters\\InverseBooleanToVisibilityConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T07:15:00.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T07:15:00.604Z"
             },
             {
               "$type": "Document",
@@ -963,8 +915,7 @@
               "RelativeToolTip": "SmartFactory\\Converters\\ModeButtonBrushConverter.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T07:38:56.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T07:38:56.06Z"
             },
             {
               "$type": "Document",
@@ -976,8 +927,7 @@
               "RelativeToolTip": "SmartFactory\\Converters\\PeriodButtonBrushConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T07:31:26.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T07:31:26.884Z"
             },
             {
               "$type": "Document",
@@ -1143,8 +1093,7 @@
               "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\DefectView.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\DefectView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-20T07:44:25.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T07:44:25.738Z"
             },
             {
               "$type": "Document",

@@ -3,8 +3,6 @@ using CommunityToolkit.Mvvm.Input;
 using SmartFactory.Models;
 using SmartFactory.Repositories.Interface;
 using System.Collections.ObjectModel;
-using System.Windows;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SmartFactory.ViewModels
 {

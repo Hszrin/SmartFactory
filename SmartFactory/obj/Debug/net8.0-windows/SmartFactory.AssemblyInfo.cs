@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartFactory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ddaf63434db2a17d39ec5b76073f03f30ab0203")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartFactory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartFactory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

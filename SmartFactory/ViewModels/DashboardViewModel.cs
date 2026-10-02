@@ -5,67 +5,41 @@ using LiveChartsCore.SkiaSharpView;
 using LiveChartsCore.SkiaSharpView.Painting;
 using SkiaSharp;
 using SmartFactory.Dtos;
+using SmartFactory.Enums;
 using SmartFactory.Services.Interface;
 using System.Collections.ObjectModel;
-using SmartFactory.Enums;
 
 namespace SmartFactory.ViewModels
 {
-    public partial class DashboardViewModel : BaseViewModel ,IAsyncInitializable
+    public partial class DashboardViewModel : BaseViewModel
     {
         private readonly IDashboardService _dashboardService;
 
-        [ObservableProperty]
-        private DashboardSummaryDto _summary = new();
+        [ObservableProperty] private DashboardSummaryDto _summary = new();
+        [ObservableProperty] private ISeries[] _productSeries = [];
+        [ObservableProperty] private Axis[] _productXAxes = [];
+        [ObservableProperty] private Axis[] _productYAxes = [];
+        [ObservableProperty] private ISeries[] _defectSeries = [];
+        [ObservableProperty] private ISeries[] _machineSeries = [];
+        [ObservableProperty] private Axis[] _machineXAxes = [];
+        [ObservableProperty] private Axis[] _machineYAxes = [];
+        [ObservableProperty] private bool _isMachineChartMode = true;
+        [ObservableProperty] private bool _isProductChartMode = true;
+        [ObservableProperty] private bool _isDefectChartMode = true;
+        [ObservableProperty] private bool _isLoading;
+        [ObservableProperty] private string _errorMessage = string.Empty;
+        [ObservableProperty] private DashboardPeriod _selectedPeriod = DashboardPeriod.Today;
 
         public ObservableCollection<MachineProductionDto> MachineProductions { get; } = new();
         public ObservableCollection<ProductProductionDto> ProductProductions { get; } = new();
         public ObservableCollection<DefectTypeDto> DefectTypes { get; } = new();
         public ObservableCollection<WorkOrderProgressDto> WorkOrderProgresses { get; } = new();
 
-
-        [ObservableProperty]
-        private ISeries[] productSeries = [];
-
-        [ObservableProperty]
-        private Axis[] productXAxes = [];
-        [ObservableProperty]
-        private Axis[] productYAxes = [];
-
-        [ObservableProperty]
-        private ISeries[] defectSeries = [];
-
-        [ObservableProperty]
-        public ISeries[] machineSeries = [];
-
-        [ObservableProperty]
-        private Axis[] machineXAxes = [];
-        [ObservableProperty]
-        private Axis[] machineYAxes = [];
-
-        [ObservableProperty]
-        private bool isMachineChartMode = true;
-
-        [ObservableProperty]
-        private bool isProductChartMode = true;
-
-        [ObservableProperty]
-        private bool isDefectChartMode = true;
-
         public bool HasMachineData => MachineProductions.Count > 0;
         public bool HasProductData => ProductProductions.Count > 0;
         public bool HasDefectData => DefectTypes.Count > 0;
 
-        [ObservableProperty]
-        private bool isLoading;
-
-        [ObservableProperty]
-        private string errorMessage = string.Empty;
-
-        [ObservableProperty]
-        private DashboardPeriod selectedPeriod = DashboardPeriod.Today;
-        public SolidColorPaint LegendTextPaint { get; } =
-            new SolidColorPaint(SKColors.White);
+        public SolidColorPaint LegendTextPaint { get; } = new(SKColors.White);
 
         public DashboardViewModel(IDashboardService dashboardService)
         {
@@ -81,27 +55,22 @@ namespace SmartFactory.ViewModels
 
                 var (start, end) = GetDateRange();
 
-                Summary = await _dashboardService
-                    .GetSummaryAsync(start, end, token);
+                Summary = await _dashboardService.GetSummaryAsync(start, end, token);
 
                 await LoadCollectionAsync(
-                    () => _dashboardService
-                        .GetMachineProductionAsync(start, end, token),
+                    () => _dashboardService.GetMachineProductionAsync(start, end, token),
                     MachineProductions);
 
                 await LoadCollectionAsync(
-                    () => _dashboardService
-                        .GetProductProductionAsync(start, end, token),
+                    () => _dashboardService.GetProductProductionAsync(start, end, token),
                     ProductProductions);
 
                 await LoadCollectionAsync(
-                    () => _dashboardService
-                        .GetDefectProductionAsync(start, end, token),
+                    () => _dashboardService.GetDefectProductionAsync(start, end, token),
                     DefectTypes);
 
                 await LoadCollectionAsync(
-                    () => _dashboardService
-                        .GetWorkOrderProgressAsync(token),
+                    () => _dashboardService.GetWorkOrderProgressAsync(token),
                     WorkOrderProgresses);
 
                 token.ThrowIfCancellationRequested();
@@ -109,32 +78,23 @@ namespace SmartFactory.ViewModels
                 CreateMachineChart();
                 CreateProductChart();
                 CreateDefectChart();
-
-                OnPropertyChanged(nameof(HasMachineData));
-                OnPropertyChanged(nameof(HasProductData));
-                OnPropertyChanged(nameof(HasDefectData));
+                NotifyDataAvailabilityChanged();
             }
             catch (OperationCanceledException)
             {
-                // 화면 이동 때문에 정상적으로 취소된 것
-                // 에러 메시지 띄우지 않음
+                // 화면 전환에 따른 정상적인 취소는 MainWindow에서 처리한다.
                 throw;
             }
             catch (Exception ex)
             {
-                ErrorMessage =
-                    $"대시보드 조회 중 오류가 발생했습니다.\n{ex.Message}";
+                ErrorMessage = $"대시보드 조회 중 오류가 발생했습니다.\n{ex.Message}";
 
                 MachineProductions.Clear();
                 ProductProductions.Clear();
                 DefectTypes.Clear();
                 WorkOrderProgresses.Clear();
-
                 Summary = new DashboardSummaryDto();
-
-                OnPropertyChanged(nameof(HasMachineData));
-                OnPropertyChanged(nameof(HasProductData));
-                OnPropertyChanged(nameof(HasDefectData));
+                NotifyDataAvailabilityChanged();
             }
             finally
             {
@@ -143,27 +103,29 @@ namespace SmartFactory.ViewModels
         }
 
         [RelayCommand]
-        private async Task Refresh()
+        private Task Refresh()
         {
-            await InitializeAsync(CancellationToken.None);
+            return InitializeAsync(CancellationToken.None);
         }
+
         [RelayCommand]
         private void ChangeMachineMode(string mode)
         {
-            if (bool.TryParse(mode, out bool isChart))
+            if (bool.TryParse(mode, out var isChart))
                 IsMachineChartMode = isChart;
         }
+
         [RelayCommand]
         private void ChangeProductMode(string mode)
         {
-            if (bool.TryParse(mode, out bool isChart))
+            if (bool.TryParse(mode, out var isChart))
                 IsProductChartMode = isChart;
         }
 
         [RelayCommand]
         private void ChangeDefectMode(string mode)
         {
-            if (bool.TryParse(mode, out bool isChart))
+            if (bool.TryParse(mode, out var isChart))
                 IsDefectChartMode = isChart;
         }
 
@@ -176,26 +138,29 @@ namespace SmartFactory.ViewModels
             SelectedPeriod = parsed;
             await InitializeAsync(CancellationToken.None);
         }
+
         private (DateTime start, DateTime end) GetDateRange()
         {
             var today = DateTime.Today;
 
             return SelectedPeriod switch
             {
-                DashboardPeriod.Today =>
-                    (today, today.AddDays(1)),
-
-                DashboardPeriod.Last7Days =>
-                    (today.AddDays(-6), today.AddDays(1)),
-
+                DashboardPeriod.Today => (today, today.AddDays(1)),
+                DashboardPeriod.Last7Days => (today.AddDays(-6), today.AddDays(1)),
                 DashboardPeriod.ThisMonth =>
                     (new DateTime(today.Year, today.Month, 1),
                      new DateTime(today.Year, today.Month, 1).AddMonths(1)),
-
-                _ =>
-                    (today, today.AddDays(1))
+                _ => (today, today.AddDays(1))
             };
         }
+
+        private void NotifyDataAvailabilityChanged()
+        {
+            OnPropertyChanged(nameof(HasMachineData));
+            OnPropertyChanged(nameof(HasProductData));
+            OnPropertyChanged(nameof(HasDefectData));
+        }
+
         private void CreateMachineChart()
         {
             MachineSeries =
@@ -203,9 +168,7 @@ namespace SmartFactory.ViewModels
                 new ColumnSeries<int>
                 {
                     Name = "생산량",
-                    Values = MachineProductions
-                        .Select(x => x.ProductionQuantity)
-                        .ToArray()
+                    Values = MachineProductions.Select(x => x.ProductionQuantity).ToArray()
                 }
             ];
 
@@ -213,10 +176,7 @@ namespace SmartFactory.ViewModels
             [
                 new Axis
                 {
-                    Labels = MachineProductions
-                        .Select(x => x.MachineName)
-                        .ToArray(),
-
+                    Labels = MachineProductions.Select(x => x.MachineName).ToArray(),
                     LabelsPaint = new SolidColorPaint(SKColors.White)
                 }
             ];
@@ -229,16 +189,15 @@ namespace SmartFactory.ViewModels
                 }
             ];
         }
+
         private void CreateProductChart()
         {
             ProductSeries =
             [
                 new ColumnSeries<int>
                 {
-                   Name = "생산량",
-                    Values = ProductProductions
-                        .Select(x => x.ProductionQuantity)
-                        .ToArray()
+                    Name = "생산량",
+                    Values = ProductProductions.Select(x => x.ProductionQuantity).ToArray()
                 }
             ];
 
@@ -246,11 +205,8 @@ namespace SmartFactory.ViewModels
             [
                 new Axis
                 {
-                    Labels = ProductProductions
-                        .Select(x => x.ProductName)
-                        .ToArray(),
-
-                        LabelsPaint = new SolidColorPaint(SKColors.White)
+                    Labels = ProductProductions.Select(x => x.ProductName).ToArray(),
+                    LabelsPaint = new SolidColorPaint(SKColors.White)
                 }
             ];
 

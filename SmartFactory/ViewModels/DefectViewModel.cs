@@ -4,7 +4,6 @@ using SmartFactory.Models;
 using SmartFactory.Repositories.Interface;
 using SmartFactory.Services.Interface;
 using System.Collections.ObjectModel;
-using System.Windows;
 
 namespace SmartFactory.ViewModels
 {
@@ -58,8 +57,7 @@ namespace SmartFactory.ViewModels
             _resultRepository = resultRepository;
         }
 
-        protected override ObservableCollection<Defect> Items
-    => Defects;
+        protected override ObservableCollection<Defect> Items => Defects;
         protected override Defect? SelectedItem
         {
             get => SelectedDefect;
@@ -76,10 +74,9 @@ namespace SmartFactory.ViewModels
         public override async Task InitializeAsync(CancellationToken token)
         {
             await LoadCollectionAsync(
-                ()=>_resultRepository.GetAllAsync(token),
+                () => _resultRepository.GetAllAsync(token),
                 ProductionResults);
 
-            // 마지막에 메인 데이터
             await RefreshItemsAsync(token);
         }
 
@@ -109,9 +106,6 @@ namespace SmartFactory.ViewModels
                 ShowError(ex.Message);
             }
         }
-        // =========================
-        // Update
-        // =========================
         [RelayCommand]
         private async Task UpdateDefect()
         {
@@ -148,10 +142,6 @@ namespace SmartFactory.ViewModels
             DefectType = value.DefectType;
             Description = value.Description;
         }
-
-        // =========================
-        // Validation
-        // =========================
         private bool ValidateInput()
         {
             if (SelectedResult == null)

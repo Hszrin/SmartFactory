@@ -3,7 +3,6 @@ using CommunityToolkit.Mvvm.Input;
 using SmartFactory.Models;
 using SmartFactory.Repositories.Interface;
 using System.Collections.ObjectModel;
-using System.Windows;
 
 namespace SmartFactory.ViewModels
 {
@@ -60,7 +59,7 @@ namespace SmartFactory.ViewModels
         public override async Task InitializeAsync(CancellationToken token)
         {
             await LoadCollectionAsync(
-                ()=>_lineRepository.GetAllAsync(token),
+                () => _lineRepository.GetAllAsync(token),
                 Lines);
 
             await RefreshItemsAsync(token);

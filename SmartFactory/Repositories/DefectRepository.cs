@@ -2,19 +2,18 @@
 using SmartFactory.Data;
 using SmartFactory.Models;
 using SmartFactory.Repositories.Interface;
-using System.Numerics;
-
 
 namespace SmartFactory.Repositories
 {
     public class DefectRepository : IDefectRepository
     {
         private readonly SmartFactoryDbContext _context;
-        public DefectRepository(
-            SmartFactoryDbContext context)
+
+        public DefectRepository(SmartFactoryDbContext context)
         {
             _context = context;
         }
+
         public async Task<List<Defect>> GetAllAsync(CancellationToken token)
         {
             return await _context.Defects
@@ -24,6 +23,7 @@ namespace SmartFactory.Repositories
                 .OrderBy(x => x.DefectId)
                 .ToListAsync(token);
         }
+
         public async Task<List<Defect>> GetByResultIdAsync(long resultId)
         {
             return await _context.Defects
@@ -31,18 +31,18 @@ namespace SmartFactory.Repositories
                 .OrderBy(x => x.DefectId)
                 .ToListAsync();
         }
+
         public async Task UpdateAsync(Defect defect)
         {
             var target = await _context.Defects
-                .FirstOrDefaultAsync(x =>
-                    x.DefectId == defect.DefectId);
+                .FirstOrDefaultAsync(x => x.DefectId == defect.DefectId);
 
             if (target == null)
                 return;
 
-            target.DefectQuantity = defect.DefectQuantity;
-            target.DefectType = defect.DefectType;
             target.ResultId = defect.ResultId;
+            target.DefectType = defect.DefectType;
+            target.DefectQuantity = defect.DefectQuantity;
             target.Description = defect.Description;
 
             await _context.SaveChangesAsync();

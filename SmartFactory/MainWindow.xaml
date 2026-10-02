@@ -24,7 +24,7 @@
                            FontWeight="Bold"
                            Margin="20"/>
 
-                <Button Content="대쉬 보드"
+                <Button Content="대시보드"
                         Height="45"
                         Margin="10,5"
                         Click="DashboardButton_Click"/>

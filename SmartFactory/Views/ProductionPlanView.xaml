@@ -132,7 +132,7 @@
                             FontWeight="Bold"/>
 
                     <Button Content="삭제"
-                            Command="{Binding DeletePlanCommand}"
+                            Command="{Binding DeleteCommand}"
                             Width="80"
                             Height="32"
                             Margin="5,0"
@@ -142,7 +142,7 @@
                             FontWeight="Bold"/>
 
                     <Button Content="새로고침"
-                            Command="{Binding RefreshPlansCommand}"
+                            Command="{Binding RefreshCommand}"
                             Width="90"
                             Height="32"
                             Margin="5,0"
