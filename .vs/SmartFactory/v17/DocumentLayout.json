@@ -332,8 +332,7 @@
               "RelativeToolTip": "SmartFactory\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T08:09:45.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T08:09:45.399Z"
             },
             {
               "$type": "Document",
@@ -379,8 +378,7 @@
               "RelativeToolTip": "SmartFactory\\Services\\DefectService.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T08:29:34.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T08:29:34.717Z"
             },
             {
               "$type": "Document",
@@ -392,8 +390,7 @@
               "RelativeToolTip": "SmartFactory\\Services\\ProductionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T08:31:19.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T08:31:19.516Z"
             },
             {
               "$type": "Document",
@@ -405,8 +402,7 @@
               "RelativeToolTip": "SmartFactory\\ViewModels\\BaseViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T13:18:33.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T13:18:33.124Z"
             },
             {
               "$type": "Document",
@@ -416,7 +412,7 @@
               "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\BaseCrudViewModel.cs",
               "ToolTip": "C:\\SmartFactory\\SmartFactory\\ViewModels\\BaseCrudViewModel.cs",
               "RelativeToolTip": "SmartFactory\\ViewModels\\BaseCrudViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-21T14:33:00.582Z",
               "EditorCaption": ""
@@ -431,8 +427,7 @@
               "RelativeToolTip": "SmartFactory\\ViewModels\\DashboardViewModel.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAmwK8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T14:32:05.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-21T14:32:05.086Z"
             },
             {
               "$type": "Document",
@@ -444,8 +439,7 @@
               "RelativeToolTip": "SmartFactory\\ViewModels\\DefectViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T08:31:04.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T08:31:04.459Z"
             },
             {
               "$type": "Document",

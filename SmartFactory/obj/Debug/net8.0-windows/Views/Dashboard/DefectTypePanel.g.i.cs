@@ -53,7 +53,7 @@ namespace SmartFactory.Views.Dashboard {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SmartFactory;V1.0.0.0;component/views/dashboard/defecttypepanel.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SmartFactory;component/views/dashboard/defecttypepanel.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Dashboard\DefectTypePanel.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -1,318 +1,316 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\",
+  "WorkspaceRootPath": "C:\\SmartFactory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\workorderview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\workorderview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\workorderview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\workorderview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\defectview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\defectview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\lineview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\lineview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\machineview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\machineview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\productionplanview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\productionplanview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\productionresultview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\productionresultview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\productview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\productview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\viewmodels\\basecrudviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\viewmodels\\basecrudviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\basecrudviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\viewmodels\\defectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\viewmodels\\defectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\defectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\viewmodels\\lineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\lineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\viewmodels\\productionplanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\productionplanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\viewmodels\\machineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\machineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\viewmodels\\workorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\workorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\viewmodels\\productionresultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\productionresultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\interface\\iworkorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\interface\\iworkorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\workorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\workorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\interface\\iproductionresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\interface\\iproductionresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\productionresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\productionresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\interface\\iproductionplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\interface\\iproductionplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\productionplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\productionplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\interface\\imachinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\interface\\imachinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\machinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\machinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\interface\\ilinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\interface\\ilinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\linerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\linerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\interface\\idefectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\interface\\idefectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\defectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\defectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\services\\interface\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\services\\interface\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\services\\productionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\services\\productionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\services\\productionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\services\\defectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\services\\defectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\services\\defectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\viewmodels\\iasyncinitializable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\workorderview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\workorderview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\workorderview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\workorderview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\defectview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\defectview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\lineview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\lineview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\machineview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\machineview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\productionplanview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\productionplanview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\productionresultview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\productionresultview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\productview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\productview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\viewmodels\\lineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\lineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\viewmodels\\productionplanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\productionplanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\viewmodels\\machineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\machineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\viewmodels\\workorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\workorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\viewmodels\\productionresultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\productionresultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\interface\\iworkorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\interface\\iworkorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\workorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\workorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\interface\\iproductionresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\interface\\iproductionresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\productionresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\productionresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\interface\\iproductionplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\interface\\iproductionplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\productionplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\productionplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\interface\\imachinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\interface\\imachinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\machinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\machinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\interface\\ilinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\interface\\ilinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\linerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\linerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\interface\\idefectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\interface\\idefectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\defectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\defectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\services\\interface\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\services\\interface\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\viewmodels\\iasyncinitializable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\viewmodels\\iasyncinitializable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\dashboard\\workorderprogresspanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\dashboard\\workorderprogresspanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\dashboard\\workorderprogresspanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\dtos\\workorderprogressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\dtos\\workorderprogressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\dtos\\workorderprogressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\dashboard\\defecttypepanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\dashboard\\defecttypepanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\dashboard\\defecttypepanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\dashboard\\productproductionpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\dashboard\\productproductionpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\dashboard\\productproductionpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\dashboard\\machineproductionpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\dashboard\\machineproductionpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\dashboard\\machineproductionpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\converters\\inversebooleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\converters\\inversebooleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\converters\\inversebooleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\converters\\modebuttonbrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\converters\\modebuttonbrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\converters\\modebuttonbrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\converters\\periodbuttonbrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\converters\\periodbuttonbrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\converters\\periodbuttonbrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\models\\defect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\models\\defect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\models\\defect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\models\\productionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\models\\productionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\models\\productionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\models\\productionplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\models\\productionplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\models\\productionplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\models\\productionline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\models\\productionline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\models\\productionline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\models\\machine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\models\\machine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\models\\machine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\dtos\\productproductiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\dtos\\productproductiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\dtos\\productproductiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\dtos\\machineproductiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\dtos\\machineproductiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\dtos\\machineproductiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\dtos\\dashboardsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\dtos\\dashboardsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\dtos\\dashboardsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\dtos\\defecttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\dtos\\defecttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\dtos\\defecttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\enums\\dashboardperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\enums\\dashboardperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\enums\\dashboardperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\dashboard\\defecttypepanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\dashboard\\defecttypepanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\dashboard\\defecttypepanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\machineview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\machineview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\machineview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\defectview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\defectview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\defectview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\dashboard\\workorderprogresspanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\dashboard\\workorderprogresspanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\dashboard\\workorderprogresspanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\dashboard\\productproductionpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\dashboard\\productproductionpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\dashboard\\productproductionpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\dashboard\\machineproductionpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\dashboard\\machineproductionpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\dashboard\\machineproductionpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\models\\workorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\models\\workorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\models\\workorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\services\\interface\\idefectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\services\\interface\\idefectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\services\\interface\\idefectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\services\\interface\\iproductionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\services\\interface\\iproductionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\services\\interface\\iproductionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\smartfactory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\smartfactory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\smartfactory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\lineview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\lineview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\lineview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\productionplanview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\productionplanview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\productionplanview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\repositories\\commonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\repositories\\commonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\repositories\\commonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\users\\swjwp\\source\\repos\\smartfactory\\smartfactory\\views\\productview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|c:\\smartfactory\\smartfactory\\views\\productview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B8D54A4B-91A4-4ECA-A70C-45F3E1ECAB3F}|SmartFactory\\SmartFactory.csproj|solutionrelative:smartfactory\\views\\productview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\IDefectService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SmartFactory\\Services\\IDefectService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\IDefectService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\IProductionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SmartFactory\\Services\\IProductionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\IProductionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -322,99 +320,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WorkOrderView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\WorkOrderView.xaml.cs",
-              "RelativeDocumentMoniker": "SmartFactory\\Views\\WorkOrderView.xaml.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\WorkOrderView.xaml.cs",
-              "RelativeToolTip": "SmartFactory\\Views\\WorkOrderView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T07:32:01.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MachineView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\MachineView.xaml.cs",
-              "RelativeDocumentMoniker": "SmartFactory\\Views\\MachineView.xaml.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\MachineView.xaml.cs",
-              "RelativeToolTip": "SmartFactory\\Views\\MachineView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T11:45:00.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LineView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\LineView.xaml.cs",
-              "RelativeDocumentMoniker": "SmartFactory\\Views\\LineView.xaml.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\LineView.xaml.cs",
-              "RelativeToolTip": "SmartFactory\\Views\\LineView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T12:01:46.627Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DefectView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\DefectView.xaml.cs",
-              "RelativeDocumentMoniker": "SmartFactory\\Views\\DefectView.xaml.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\DefectView.xaml.cs",
-              "RelativeToolTip": "SmartFactory\\Views\\DefectView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T08:00:35.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DashboardView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\DashboardView.xaml.cs",
-              "RelativeDocumentMoniker": "SmartFactory\\Views\\DashboardView.xaml.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\DashboardView.xaml.cs",
-              "RelativeToolTip": "SmartFactory\\Views\\DashboardView.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T14:40:19.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SmartFactory\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\MainWindow.xaml.cs",
               "RelativeToolTip": "SmartFactory\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAQwKAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T08:09:45.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-20T08:09:45.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "WorkOrderView.xaml",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\WorkOrderView.xaml",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\WorkOrderView.xaml",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\WorkOrderView.xaml",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\WorkOrderView.xaml",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\WorkOrderView.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\WorkOrderView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-20T08:28:37.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\App.xaml.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\App.xaml.cs",
               "RelativeDocumentMoniker": "SmartFactory\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\App.xaml.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\App.xaml.cs",
               "RelativeToolTip": "SmartFactory\\App.xaml.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAwDoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -422,22 +359,155 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\MainWindow.xaml",
               "RelativeDocumentMoniker": "SmartFactory\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\MainWindow.xaml",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\MainWindow.xaml",
               "RelativeToolTip": "SmartFactory\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-20T11:45:24.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "DefectService.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Services\\DefectService.cs",
+              "RelativeDocumentMoniker": "SmartFactory\\Services\\DefectService.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Services\\DefectService.cs",
+              "RelativeToolTip": "SmartFactory\\Services\\DefectService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T08:29:34.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductionService.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Services\\ProductionService.cs",
+              "RelativeDocumentMoniker": "SmartFactory\\Services\\ProductionService.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Services\\ProductionService.cs",
+              "RelativeToolTip": "SmartFactory\\Services\\ProductionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T08:31:19.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "SmartFactory\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T13:18:33.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseCrudViewModel.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\ViewModels\\BaseCrudViewModel.cs",
+              "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\BaseCrudViewModel.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\ViewModels\\BaseCrudViewModel.cs",
+              "RelativeToolTip": "SmartFactory\\ViewModels\\BaseCrudViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T14:33:00.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "SmartFactory\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwK8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T14:32:05.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DefectViewModel.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\ViewModels\\DefectViewModel.cs",
+              "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\DefectViewModel.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\ViewModels\\DefectViewModel.cs",
+              "RelativeToolTip": "SmartFactory\\ViewModels\\DefectViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T08:31:04.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardView.xaml.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\DashboardView.xaml.cs",
+              "RelativeDocumentMoniker": "SmartFactory\\Views\\DashboardView.xaml.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\DashboardView.xaml.cs",
+              "RelativeToolTip": "SmartFactory\\Views\\DashboardView.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T14:40:19.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DefectView.xaml.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\DefectView.xaml.cs",
+              "RelativeDocumentMoniker": "SmartFactory\\Views\\DefectView.xaml.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\DefectView.xaml.cs",
+              "RelativeToolTip": "SmartFactory\\Views\\DefectView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T08:00:35.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LineView.xaml.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\LineView.xaml.cs",
+              "RelativeDocumentMoniker": "SmartFactory\\Views\\LineView.xaml.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\LineView.xaml.cs",
+              "RelativeToolTip": "SmartFactory\\Views\\LineView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T12:01:46.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MachineView.xaml.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\MachineView.xaml.cs",
+              "RelativeDocumentMoniker": "SmartFactory\\Views\\MachineView.xaml.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\MachineView.xaml.cs",
+              "RelativeToolTip": "SmartFactory\\Views\\MachineView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T11:45:00.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WorkOrderView.xaml.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\WorkOrderView.xaml.cs",
+              "RelativeDocumentMoniker": "SmartFactory\\Views\\WorkOrderView.xaml.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\WorkOrderView.xaml.cs",
+              "RelativeToolTip": "SmartFactory\\Views\\WorkOrderView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T07:32:01.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ProductionPlanView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\ProductionPlanView.xaml.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\ProductionPlanView.xaml.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\ProductionPlanView.xaml.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\ProductionPlanView.xaml.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\ProductionPlanView.xaml.cs",
               "RelativeToolTip": "SmartFactory\\Views\\ProductionPlanView.xaml.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAmwBAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -445,11 +515,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "ProductionResultView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\ProductionResultView.xaml.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\ProductionResultView.xaml.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\ProductionResultView.xaml.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\ProductionResultView.xaml.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\ProductionResultView.xaml.cs",
               "RelativeToolTip": "SmartFactory\\Views\\ProductionResultView.xaml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvw8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -457,11 +527,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "ProductView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\ProductView.xaml.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\ProductView.xaml.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\ProductView.xaml.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\ProductView.xaml.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\ProductView.xaml.cs",
               "RelativeToolTip": "SmartFactory\\Views\\ProductView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -469,46 +539,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BaseCrudViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\BaseCrudViewModel.cs",
-              "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\BaseCrudViewModel.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\BaseCrudViewModel.cs",
-              "RelativeToolTip": "SmartFactory\\ViewModels\\BaseCrudViewModel.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAmwD0AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T14:33:00.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "DashboardView.xaml",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\DashboardView.xaml",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\DashboardView.xaml",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\DashboardView.xaml",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\DashboardView.xaml",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\DashboardView.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\DashboardView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-21T14:39:02.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DefectViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\DefectViewModel.cs",
-              "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\DefectViewModel.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\DefectViewModel.cs",
-              "RelativeToolTip": "SmartFactory\\ViewModels\\DefectViewModel.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAADwv4MAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T08:31:04.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "LineViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\LineViewModel.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\ViewModels\\LineViewModel.cs",
               "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\LineViewModel.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\LineViewModel.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\ViewModels\\LineViewModel.cs",
               "RelativeToolTip": "SmartFactory\\ViewModels\\LineViewModel.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAiwDgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -516,11 +562,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "ProductionPlanViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\ProductionPlanViewModel.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\ViewModels\\ProductionPlanViewModel.cs",
               "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\ProductionPlanViewModel.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\ProductionPlanViewModel.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\ViewModels\\ProductionPlanViewModel.cs",
               "RelativeToolTip": "SmartFactory\\ViewModels\\ProductionPlanViewModel.cs",
               "ViewState": "AgIAAMAAAAAAAAAAAAAuwNMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -528,11 +574,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "MachineViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\MachineViewModel.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\ViewModels\\MachineViewModel.cs",
               "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\MachineViewModel.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\MachineViewModel.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\ViewModels\\MachineViewModel.cs",
               "RelativeToolTip": "SmartFactory\\ViewModels\\MachineViewModel.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAzwDgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -540,11 +586,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "WorkOrderViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\WorkOrderViewModel.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\ViewModels\\WorkOrderViewModel.cs",
               "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\WorkOrderViewModel.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\WorkOrderViewModel.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\ViewModels\\WorkOrderViewModel.cs",
               "RelativeToolTip": "SmartFactory\\ViewModels\\WorkOrderViewModel.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAYwEQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -552,11 +598,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "ProductViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\ProductViewModel.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\ViewModels\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\ProductViewModel.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\ViewModels\\ProductViewModel.cs",
               "RelativeToolTip": "SmartFactory\\ViewModels\\ProductViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -564,11 +610,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "ProductionResultViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\ProductionResultViewModel.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\ViewModels\\ProductionResultViewModel.cs",
               "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\ProductionResultViewModel.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\ProductionResultViewModel.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\ViewModels\\ProductionResultViewModel.cs",
               "RelativeToolTip": "SmartFactory\\ViewModels\\ProductionResultViewModel.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAQwIQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -576,22 +622,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\App.xaml",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\App.xaml",
               "RelativeDocumentMoniker": "SmartFactory\\App.xaml",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\App.xaml",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\App.xaml",
               "RelativeToolTip": "SmartFactory\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-22T07:13:57.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "IWorkOrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IWorkOrderRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IWorkOrderRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\Interface\\IWorkOrderRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IWorkOrderRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IWorkOrderRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\Interface\\IWorkOrderRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -599,11 +645,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IProductRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IProductRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\Interface\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IProductRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IProductRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\Interface\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -611,11 +657,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "IProductionResultRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IProductionResultRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IProductionResultRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\Interface\\IProductionResultRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IProductionResultRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IProductionResultRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\Interface\\IProductionResultRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -623,11 +669,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "ProductionResultRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\ProductionResultRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\ProductionResultRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\ProductionResultRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\ProductionResultRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\ProductionResultRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\ProductionResultRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -635,11 +681,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "IProductionPlanRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IProductionPlanRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IProductionPlanRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\Interface\\IProductionPlanRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IProductionPlanRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IProductionPlanRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\Interface\\IProductionPlanRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -647,11 +693,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "IMachineRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IMachineRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IMachineRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\Interface\\IMachineRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IMachineRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IMachineRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\Interface\\IMachineRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -659,11 +705,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "MachineRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\MachineRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\MachineRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\MachineRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\MachineRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\MachineRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\MachineRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -671,11 +717,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "ILineRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\Interface\\ILineRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\Interface\\ILineRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\Interface\\ILineRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\Interface\\ILineRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\Interface\\ILineRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\Interface\\ILineRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -683,11 +729,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "WorkOrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\WorkOrderRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\WorkOrderRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\WorkOrderRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\WorkOrderRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\WorkOrderRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\WorkOrderRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -695,11 +741,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "LineRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\LineRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\LineRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\LineRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\LineRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\LineRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\LineRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -707,11 +753,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "IDefectRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IDefectRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IDefectRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\Interface\\IDefectRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IDefectRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\Interface\\IDefectRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\Interface\\IDefectRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -719,11 +765,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\ProductRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\ProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -731,11 +777,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "DefectRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\DefectRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\DefectRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\DefectRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\DefectRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\DefectRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\DefectRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -743,11 +789,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "ProductionPlanRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\ProductionPlanRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\ProductionPlanRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\ProductionPlanRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\ProductionPlanRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\ProductionPlanRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\ProductionPlanRepository.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -755,23 +801,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\BaseViewModel.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\BaseViewModel.cs",
-              "RelativeToolTip": "SmartFactory\\ViewModels\\BaseViewModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA0AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T13:18:33.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "DashboardService.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\DashboardService.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Services\\DashboardService.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Services\\DashboardService.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\DashboardService.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Services\\DashboardService.cs",
               "RelativeToolTip": "SmartFactory\\Services\\DashboardService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -779,11 +813,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "IDashboardService.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\Interface\\IDashboardService.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Services\\Interface\\IDashboardService.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Services\\Interface\\IDashboardService.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\Interface\\IDashboardService.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Services\\Interface\\IDashboardService.cs",
               "RelativeToolTip": "SmartFactory\\Services\\Interface\\IDashboardService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -791,47 +825,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ProductionService.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\ProductionService.cs",
-              "RelativeDocumentMoniker": "SmartFactory\\Services\\ProductionService.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\ProductionService.cs",
-              "RelativeToolTip": "SmartFactory\\Services\\ProductionService.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAIwAgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T08:31:19.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "DashboardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\DashboardViewModel.cs",
-              "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\DashboardViewModel.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\DashboardViewModel.cs",
-              "RelativeToolTip": "SmartFactory\\ViewModels\\DashboardViewModel.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAYwK8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T14:32:05.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "DefectService.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\DefectService.cs",
-              "RelativeDocumentMoniker": "SmartFactory\\Services\\DefectService.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\DefectService.cs",
-              "RelativeToolTip": "SmartFactory\\Services\\DefectService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwD4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T08:29:34.717Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 42,
               "Title": "IAsyncInitializable.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\IAsyncInitializable.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\ViewModels\\IAsyncInitializable.cs",
               "RelativeDocumentMoniker": "SmartFactory\\ViewModels\\IAsyncInitializable.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\ViewModels\\IAsyncInitializable.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\ViewModels\\IAsyncInitializable.cs",
               "RelativeToolTip": "SmartFactory\\ViewModels\\IAsyncInitializable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -841,9 +839,9 @@
               "$type": "Document",
               "DocumentIndex": 43,
               "Title": "WorkOrderProgressPanel.xaml",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\WorkOrderProgressPanel.xaml",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\WorkOrderProgressPanel.xaml",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\Dashboard\\WorkOrderProgressPanel.xaml",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\WorkOrderProgressPanel.xaml",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\WorkOrderProgressPanel.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\Dashboard\\WorkOrderProgressPanel.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-22T07:04:22.741Z"
@@ -852,9 +850,9 @@
               "$type": "Document",
               "DocumentIndex": 44,
               "Title": "WorkOrderProgressDto.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Dtos\\WorkOrderProgressDto.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Dtos\\WorkOrderProgressDto.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Dtos\\WorkOrderProgressDto.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Dtos\\WorkOrderProgressDto.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Dtos\\WorkOrderProgressDto.cs",
               "RelativeToolTip": "SmartFactory\\Dtos\\WorkOrderProgressDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -864,9 +862,9 @@
               "$type": "Document",
               "DocumentIndex": 45,
               "Title": "DefectTypePanel.xaml",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\DefectTypePanel.xaml",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\DefectTypePanel.xaml",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\Dashboard\\DefectTypePanel.xaml",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\DefectTypePanel.xaml",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\DefectTypePanel.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\Dashboard\\DefectTypePanel.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-22T07:04:09.772Z"
@@ -875,9 +873,9 @@
               "$type": "Document",
               "DocumentIndex": 46,
               "Title": "ProductProductionPanel.xaml",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\ProductProductionPanel.xaml",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\ProductProductionPanel.xaml",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\Dashboard\\ProductProductionPanel.xaml",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\ProductProductionPanel.xaml",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\ProductProductionPanel.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\Dashboard\\ProductProductionPanel.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-22T07:04:02.742Z"
@@ -886,9 +884,9 @@
               "$type": "Document",
               "DocumentIndex": 47,
               "Title": "MachineProductionPanel.xaml",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\MachineProductionPanel.xaml",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\MachineProductionPanel.xaml",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\Dashboard\\MachineProductionPanel.xaml",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\MachineProductionPanel.xaml",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\MachineProductionPanel.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\Dashboard\\MachineProductionPanel.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-22T07:03:45.29Z"
@@ -897,9 +895,9 @@
               "$type": "Document",
               "DocumentIndex": 48,
               "Title": "InverseBooleanToVisibilityConverter.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Converters\\InverseBooleanToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Converters\\InverseBooleanToVisibilityConverter.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Converters\\InverseBooleanToVisibilityConverter.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Converters\\InverseBooleanToVisibilityConverter.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Converters\\InverseBooleanToVisibilityConverter.cs",
               "RelativeToolTip": "SmartFactory\\Converters\\InverseBooleanToVisibilityConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -909,9 +907,9 @@
               "$type": "Document",
               "DocumentIndex": 49,
               "Title": "ModeButtonBrushConverter.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Converters\\ModeButtonBrushConverter.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Converters\\ModeButtonBrushConverter.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Converters\\ModeButtonBrushConverter.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Converters\\ModeButtonBrushConverter.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Converters\\ModeButtonBrushConverter.cs",
               "RelativeToolTip": "SmartFactory\\Converters\\ModeButtonBrushConverter.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -921,9 +919,9 @@
               "$type": "Document",
               "DocumentIndex": 50,
               "Title": "PeriodButtonBrushConverter.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Converters\\PeriodButtonBrushConverter.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Converters\\PeriodButtonBrushConverter.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Converters\\PeriodButtonBrushConverter.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Converters\\PeriodButtonBrushConverter.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Converters\\PeriodButtonBrushConverter.cs",
               "RelativeToolTip": "SmartFactory\\Converters\\PeriodButtonBrushConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -933,9 +931,9 @@
               "$type": "Document",
               "DocumentIndex": 51,
               "Title": "Defect.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Models\\Defect.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Models\\Defect.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Models\\Defect.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Models\\Defect.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Models\\Defect.cs",
               "RelativeToolTip": "SmartFactory\\Models\\Defect.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -945,9 +943,9 @@
               "$type": "Document",
               "DocumentIndex": 52,
               "Title": "ProductionResult.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Models\\ProductionResult.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Models\\ProductionResult.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Models\\ProductionResult.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Models\\ProductionResult.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Models\\ProductionResult.cs",
               "RelativeToolTip": "SmartFactory\\Models\\ProductionResult.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -957,9 +955,9 @@
               "$type": "Document",
               "DocumentIndex": 57,
               "Title": "ProductProductionDto.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Dtos\\ProductProductionDto.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Dtos\\ProductProductionDto.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Dtos\\ProductProductionDto.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Dtos\\ProductProductionDto.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Dtos\\ProductProductionDto.cs",
               "RelativeToolTip": "SmartFactory\\Dtos\\ProductProductionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -969,9 +967,9 @@
               "$type": "Document",
               "DocumentIndex": 54,
               "Title": "ProductionLine.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Models\\ProductionLine.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Models\\ProductionLine.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Models\\ProductionLine.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Models\\ProductionLine.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Models\\ProductionLine.cs",
               "RelativeToolTip": "SmartFactory\\Models\\ProductionLine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -981,9 +979,9 @@
               "$type": "Document",
               "DocumentIndex": 53,
               "Title": "ProductionPlan.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Models\\ProductionPlan.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Models\\ProductionPlan.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Models\\ProductionPlan.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Models\\ProductionPlan.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Models\\ProductionPlan.cs",
               "RelativeToolTip": "SmartFactory\\Models\\ProductionPlan.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -993,9 +991,9 @@
               "$type": "Document",
               "DocumentIndex": 58,
               "Title": "MachineProductionDto.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Dtos\\MachineProductionDto.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Dtos\\MachineProductionDto.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Dtos\\MachineProductionDto.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Dtos\\MachineProductionDto.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Dtos\\MachineProductionDto.cs",
               "RelativeToolTip": "SmartFactory\\Dtos\\MachineProductionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1005,9 +1003,9 @@
               "$type": "Document",
               "DocumentIndex": 59,
               "Title": "DashboardSummaryDto.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Dtos\\DashboardSummaryDto.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Dtos\\DashboardSummaryDto.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Dtos\\DashboardSummaryDto.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Dtos\\DashboardSummaryDto.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Dtos\\DashboardSummaryDto.cs",
               "RelativeToolTip": "SmartFactory\\Dtos\\DashboardSummaryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1017,9 +1015,9 @@
               "$type": "Document",
               "DocumentIndex": 60,
               "Title": "DefectTypeDto.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Dtos\\DefectTypeDto.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Dtos\\DefectTypeDto.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Dtos\\DefectTypeDto.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Dtos\\DefectTypeDto.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Dtos\\DefectTypeDto.cs",
               "RelativeToolTip": "SmartFactory\\Dtos\\DefectTypeDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1029,9 +1027,9 @@
               "$type": "Document",
               "DocumentIndex": 61,
               "Title": "DashboardPeriod.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Enums\\DashboardPeriod.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Enums\\DashboardPeriod.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Enums\\DashboardPeriod.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Enums\\DashboardPeriod.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Enums\\DashboardPeriod.cs",
               "RelativeToolTip": "SmartFactory\\Enums\\DashboardPeriod.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1041,9 +1039,9 @@
               "$type": "Document",
               "DocumentIndex": 56,
               "Title": "Machine.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Models\\Machine.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Models\\Machine.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Models\\Machine.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Models\\Machine.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Models\\Machine.cs",
               "RelativeToolTip": "SmartFactory\\Models\\Machine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1053,9 +1051,9 @@
               "$type": "Document",
               "DocumentIndex": 55,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Models\\Product.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Models\\Product.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Models\\Product.cs",
               "RelativeToolTip": "SmartFactory\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1065,9 +1063,9 @@
               "$type": "Document",
               "DocumentIndex": 62,
               "Title": "DefectTypePanel.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\DefectTypePanel.xaml.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\DefectTypePanel.xaml.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\Dashboard\\DefectTypePanel.xaml.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\DefectTypePanel.xaml.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\DefectTypePanel.xaml.cs",
               "RelativeToolTip": "SmartFactory\\Views\\Dashboard\\DefectTypePanel.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1077,9 +1075,9 @@
               "$type": "Document",
               "DocumentIndex": 63,
               "Title": "MachineView.xaml",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\MachineView.xaml",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\MachineView.xaml",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\MachineView.xaml",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\MachineView.xaml",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\MachineView.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\MachineView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-20T11:44:47.822Z"
@@ -1088,9 +1086,9 @@
               "$type": "Document",
               "DocumentIndex": 64,
               "Title": "DefectView.xaml",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\DefectView.xaml",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\DefectView.xaml",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\DefectView.xaml",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\DefectView.xaml",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\DefectView.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\DefectView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-20T07:44:25.738Z"
@@ -1099,9 +1097,9 @@
               "$type": "Document",
               "DocumentIndex": 65,
               "Title": "WorkOrderProgressPanel.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\WorkOrderProgressPanel.xaml.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\WorkOrderProgressPanel.xaml.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\Dashboard\\WorkOrderProgressPanel.xaml.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\WorkOrderProgressPanel.xaml.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\WorkOrderProgressPanel.xaml.cs",
               "RelativeToolTip": "SmartFactory\\Views\\Dashboard\\WorkOrderProgressPanel.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1111,9 +1109,9 @@
               "$type": "Document",
               "DocumentIndex": 66,
               "Title": "ProductProductionPanel.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\ProductProductionPanel.xaml.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\ProductProductionPanel.xaml.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\Dashboard\\ProductProductionPanel.xaml.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\ProductProductionPanel.xaml.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\ProductProductionPanel.xaml.cs",
               "RelativeToolTip": "SmartFactory\\Views\\Dashboard\\ProductProductionPanel.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1123,9 +1121,9 @@
               "$type": "Document",
               "DocumentIndex": 67,
               "Title": "MachineProductionPanel.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\MachineProductionPanel.xaml.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\MachineProductionPanel.xaml.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\Dashboard\\MachineProductionPanel.xaml.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\Dashboard\\MachineProductionPanel.xaml.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\Dashboard\\MachineProductionPanel.xaml.cs",
               "RelativeToolTip": "SmartFactory\\Views\\Dashboard\\MachineProductionPanel.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1135,9 +1133,9 @@
               "$type": "Document",
               "DocumentIndex": 68,
               "Title": "WorkOrder.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Models\\WorkOrder.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Models\\WorkOrder.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Models\\WorkOrder.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Models\\WorkOrder.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Models\\WorkOrder.cs",
               "RelativeToolTip": "SmartFactory\\Models\\WorkOrder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1147,9 +1145,9 @@
               "$type": "Document",
               "DocumentIndex": 69,
               "Title": "IDefectService.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\Interface\\IDefectService.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Services\\Interface\\IDefectService.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Services\\Interface\\IDefectService.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\Interface\\IDefectService.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Services\\Interface\\IDefectService.cs",
               "RelativeToolTip": "SmartFactory\\Services\\Interface\\IDefectService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1159,9 +1157,9 @@
               "$type": "Document",
               "DocumentIndex": 70,
               "Title": "IProductionService.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\Interface\\IProductionService.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Services\\Interface\\IProductionService.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Services\\Interface\\IProductionService.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\Interface\\IProductionService.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Services\\Interface\\IProductionService.cs",
               "RelativeToolTip": "SmartFactory\\Services\\Interface\\IProductionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1171,9 +1169,9 @@
               "$type": "Document",
               "DocumentIndex": 73,
               "Title": "ProductionPlanView.xaml",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\ProductionPlanView.xaml",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\ProductionPlanView.xaml",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\ProductionPlanView.xaml",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\ProductionPlanView.xaml",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\ProductionPlanView.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\ProductionPlanView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-20T11:49:39.605Z"
@@ -1182,9 +1180,9 @@
               "$type": "Document",
               "DocumentIndex": 72,
               "Title": "LineView.xaml",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\LineView.xaml",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\LineView.xaml",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\LineView.xaml",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\LineView.xaml",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\LineView.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\LineView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-20T12:01:21.739Z"
@@ -1193,9 +1191,9 @@
               "$type": "Document",
               "DocumentIndex": 71,
               "Title": "SmartFactory.csproj",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\SmartFactory.csproj",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\SmartFactory.csproj",
               "RelativeDocumentMoniker": "SmartFactory\\SmartFactory.csproj",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\SmartFactory.csproj",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\SmartFactory.csproj",
               "RelativeToolTip": "SmartFactory\\SmartFactory.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -1205,9 +1203,9 @@
               "$type": "Document",
               "DocumentIndex": 75,
               "Title": "ProductView.xaml",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\ProductView.xaml",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Views\\ProductView.xaml",
               "RelativeDocumentMoniker": "SmartFactory\\Views\\ProductView.xaml",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Views\\ProductView.xaml",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Views\\ProductView.xaml",
               "RelativeToolTip": "SmartFactory\\Views\\ProductView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-20T08:26:02.653Z"
@@ -1217,9 +1215,9 @@
               "DocumentIndex": 76,
               "Title": "IDefectService.cs",
               "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\IDefectService.cs",
-              "RelativeDocumentMoniker": "SmartFactory\\Services\\IDefectService.cs",
+              "RelativeDocumentMoniker": "..\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\IDefectService.cs",
               "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\IDefectService.cs",
-              "RelativeToolTip": "SmartFactory\\Services\\IDefectService.cs",
+              "RelativeToolTip": "..\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\IDefectService.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-20T07:57:24.147Z"
             },
@@ -1227,9 +1225,9 @@
               "$type": "Document",
               "DocumentIndex": 74,
               "Title": "CommonRepository.cs",
-              "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\CommonRepository.cs",
+              "DocumentMoniker": "C:\\SmartFactory\\SmartFactory\\Repositories\\CommonRepository.cs",
               "RelativeDocumentMoniker": "SmartFactory\\Repositories\\CommonRepository.cs",
-              "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Repositories\\CommonRepository.cs",
+              "ToolTip": "C:\\SmartFactory\\SmartFactory\\Repositories\\CommonRepository.cs",
               "RelativeToolTip": "SmartFactory\\Repositories\\CommonRepository.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1240,9 +1238,9 @@
               "DocumentIndex": 77,
               "Title": "IProductionService.cs",
               "DocumentMoniker": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\IProductionService.cs",
-              "RelativeDocumentMoniker": "SmartFactory\\Services\\IProductionService.cs",
+              "RelativeDocumentMoniker": "..\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\IProductionService.cs",
               "ToolTip": "C:\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\IProductionService.cs",
-              "RelativeToolTip": "SmartFactory\\Services\\IProductionService.cs",
+              "RelativeToolTip": "..\\Users\\swjwp\\source\\repos\\SmartFactory\\SmartFactory\\Services\\IProductionService.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-20T07:03:21.115Z"
             }

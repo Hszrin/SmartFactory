@@ -52,7 +52,7 @@ namespace SmartFactory.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SmartFactory;V1.0.0.0;component/views/workorderview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SmartFactory;component/views/workorderview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\WorkOrderView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
